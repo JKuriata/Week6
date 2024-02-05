@@ -1,0 +1,23 @@
+* {
+  background-color: rgb(16, 8, 46);
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem;
+}
+
+img {
+  width: 14rem;
+}
+
+body a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: brown;
+}
+
+body a:hover {
+  background-color: rgb(115, 29, 29);
+}

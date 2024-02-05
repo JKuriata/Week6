@@ -4,6 +4,7 @@ const express = require("express");
 const app = express();
 
 app.use("/example", express.static("example"));
+app.use("/stormlight", express.static("stormlight"));
 
 // app.get("/health", (req, res) => {
 //     res.send("healthy");
